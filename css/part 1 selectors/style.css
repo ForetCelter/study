@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: red;
+}
+
+#judul {
+    font-size: 36px;
+}
+
+.kotak {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.penting {
+    color: blue;
+    font-weight: bold;
+}
+
+.kotak p {
+    color: #013220;
+}
+
+.kotak > p {
+    font-size: 18px;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+li {
+    color: brown;
+}

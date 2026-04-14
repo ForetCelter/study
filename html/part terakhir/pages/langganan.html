@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="judul">Formulir Langganan</h1>
+    <p>Silakan isi formulir di bawah ini untuk berlangganan:</p>
+
+    <hr>
+
+    <h2>Keuntungan Berlangganan</h2>
+    <ol>
+        <li>Akses ke konten eksklusif</li>
+        <li>Penawaran khusus dan diskon</li>
+        <li>Dukungan pelanggan prioritas</li>
+        <li>Update rutin tentang produk dan layanan</li>
+    </ol>
+
+    <hr>
+
+    <h2>Isi Formulir</h2>
+    <form>
+        <label for="Nama">Nama Lengkap:</label> <br>
+        <input type="text" name="Nama" id="Nama"> <br>
+
+        <label for="Email">Email:</label> <br>
+        <input type="email" name="Email" id="Email"> <br>
+
+        <label for="NomorHP">Nomor HP:</label> <br>
+        <input type="number" name="NomorHP" id="NomorHP"> <br>
+
+        <label for="kelamin">Jenis Kelamin:</label> 
+        <br>
+        <input type="radio" name="kelamin" id="laki-laki">
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" name="kelamin" id="perempuan">
+        <label for="perempuan">Perempuan</label> <br>
+
+        <label for="topik-fav">Topik Favorit:</label> <br>
+        <input type="checkbox" name="topik-fav" id="fisika"> <label for="fisika">Fisika</label>
+        <input type="checkbox" name="topik-fav" id="sejarah"> <label for="sejarah">Sejarah</label>
+        <input type="checkbox" name="topik-fav" id="bahasa"> <label for="bahasa">Bahasa</label> <br>
+
+        <label for="paket">Paket Langganan</label> <br>
+        <select name="paket" id="paket"> 
+            <option value="Bulanan">Bulanan</option>
+            <option value="Tahunan">Tahunan</option>
+            <option value="Gratis">Gratis</option>
+        </select> <br>
+
+        <label for="pesan">Pesan/pertanyaan</label> <br>
+        <textarea name="pesan" id="pesan"></textarea> <br>
+
+        <button type="submit">Kirim</button>
+
+        <hr>
+
+         <a href="../index.html">Kembali ke Halaman Utama</a>
+    </form>
+</body>
+</html>

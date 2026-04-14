@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fefefe;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 40px;
+}
+
+#judul {
+    color: #222222;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+}
+
+.deskripsi {
+    color: #555555; 
+    text-align: center;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+a:link {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #884400;
+}
+
+a:hover {
+    color: #ff4400;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #00aa00;
+}
+
+#beli {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+#beli:hover {
+    background-color: #005fa3;
+}
+
+#beli:active {
+    background-color: #003f6b;
+}
