@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    padding: 40px;
+}
+
+.kartu {
+    background-color: white;
+    width: 400px;
+    padding: 32px;
+    margin: auto;
+    border: 1px solid #dddddd;
+}
+
+.nama {
+    color: #111111;
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.jabatan {
+    color: #888888;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.bio {
+    background-color: #f8f8f8;
+    padding: 16px;
+    border-left: 4px solid #0077cc;
+    margin-bottom: 16px;
+}
+
+.kotak-sempit {
+    background-color: #fff3cd;
+    padding: 12px;
+    border: 1px solid #ffc107;
+    height: 60px;
+    overflow: hidden;
+}
