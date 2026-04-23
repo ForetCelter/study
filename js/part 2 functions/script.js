@@ -1,7 +1,7 @@
 // Function declaration: 
 // function nama(param) { return ... }
 function sapa(nama) {
-    return "Halo," + nama + "!"
+    return "Halo," + nama + "! Selamat datang."
 };
 console.log(sapa("aca"));
 
@@ -28,7 +28,7 @@ console.log(perkenalan("Aca", "Makassar"))
 console.log(perkenalan("Aca",))
 
 const hitungDiskon = (harga,diskon) => {
-    return harga * diskon / 100
+    return harga - (harga * diskon / 100)
 }
 
 console.log(hitungDiskon(20000, 20))
